@@ -1,14 +1,7 @@
 import React from "react";
-import DashboardLayout from "@/app/components/dashboard/dashboard";
-import ProfileHeader from "@/app/components/account/profileHeader";
 
-function Dashboard() {
-  return (
-    <>
-      <ProfileHeader />
-      <DashboardLayout />
-    </>
-  );
+function Dashboardlayout() {
+  return <>hello</>;
 }
 
-export default Dashboard;
+export default Dashboardlayout;

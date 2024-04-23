@@ -1,7 +1,12 @@
 import React from "react";
+import NavMenu from "@/app/components/dashboard/NavMenu";
 
-function DashboardLayout() {
-  return <div>DashboardLayout</div>;
+function Dashboard() {
+  return (
+    <div>
+      <NavMenu />
+    </div>
+  );
 }
 
-export default DashboardLayout;
+export default Dashboard;
