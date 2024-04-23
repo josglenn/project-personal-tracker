@@ -7,7 +7,7 @@ function DashBoardLayout({ children }: { children: React.ReactNode }) {
     <>
       <ProfileHeader />
       <Dashboard />
-      {children}
+      <div className="px-10 ">{children}</div>
     </>
   );
 }

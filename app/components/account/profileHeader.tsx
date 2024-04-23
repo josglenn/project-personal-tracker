@@ -10,7 +10,7 @@ function ProfileHeader() {
   return (
     <div className="flex py-7 px-4 items-center justify-between">
       <p className="font-bold text-4xl align-middle">
-        <span className="text-purple-400">Person</span>al Tracker
+        <span className="text-purple-800">Person</span>al Tracker
       </p>
       {signIn ? (
         <div className="flex items-center">
