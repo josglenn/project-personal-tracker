@@ -33,14 +33,14 @@ function Task() {
   const segmentStyle = segment === "task" ? " opacity-100" : "opacity-0";
 
   return (
-    <div className=" flex bg-purple-900 rounded-2xl h-[75vh] gap-5 p-10">
+    <div className=" flex bg-purple-900  h-[75vh] rounded-lg gap-10 p-10">
       <div
-        className={`columns-auto flex-1 rounded-2xl p-4 ${transitionStyle} ${segmentStyle}`}
+        className={`columns-auto flex-1 rounded-l-lg  bg-slate-400 p-4 ${transitionStyle} ${segmentStyle}`}
       >
         Area
       </div>
       <div
-        className={`flex flex-col flex-[.6] rounded-2xl ${transitionStyle} ${segmentStyle}`}
+        className={`flex flex-col flex-[.6] rounded-r-lg ${transitionStyle} ${segmentStyle}`}
       >
         {ITEM_MENU.map((item) => (
           <>
