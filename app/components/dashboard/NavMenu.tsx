@@ -21,7 +21,7 @@ function NavMenu() {
               : activeMenuStyle
           }
         >
-          <Link href={"/dashboard/task"}>Task</Link>
+          <Link href={"/task"}>Task</Link>
         </h4>
         <h4
           className={
@@ -30,7 +30,7 @@ function NavMenu() {
               : activeMenuStyle
           }
         >
-          <Link href={"/dashboard/expense"}>Expense</Link>
+          <Link href={"/expense"}>Expense</Link>
         </h4>
       </div>
       <Cloud
